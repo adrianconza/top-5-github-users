@@ -1,0 +1,19 @@
+.header {
+    background-color: #282828;
+    min-height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header > span {
+    color: #FFFFFF;
+}
+
+.header > a {
+    position: absolute;
+    color: #FFFFFF;
+    text-decoration: none;
+    left: 2rem;
+}

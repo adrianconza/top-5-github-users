@@ -1,0 +1,42 @@
+.person {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.person > section {
+    margin: 40px 70px;
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.person > section > img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.person .info {
+    padding-left: 2rem;
+}
+
+
+.person .info > h1 {
+    font-size: 36px;
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+.person .info > span {
+    color: #B1B1B1;
+}
+
+@media only screen and (max-width: 1023px) {
+    .person > section {
+        margin: 30px 20px;
+    }
+}
